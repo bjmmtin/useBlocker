@@ -1,5 +1,14 @@
 # useBlocker
 
+## Description
+The useBlocker hook is a useful tool in React Router that allows you to prevent navigation away from a route when certain conditions are met, such as unsaved changes in a form. Here’s a detailed explanation of how it works in my MyForm component.
+### How useBlocker Works
+- Purpose:
+
+The primary purpose of useBlocker is to intercept navigation events and conditionally block them based on your application’s logic. This is particularly useful for preventing data loss when users try to navigate away from a page with unsaved changes.
+- Usage:
+
+In my component, useBlocker is used to define a navigation blocking function (handleNavigation) that checks if the form is dirty (i.e., if there are unsaved changes).
 ## MyForm Component
 
 ```
